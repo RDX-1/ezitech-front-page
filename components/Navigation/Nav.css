@@ -1,0 +1,26 @@
+.icon{
+    height: 100px;
+}
+
+.head {
+    background-color:#3275db;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.division {
+    color: white;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.division a{
+    color: white;
+    padding: 0 5px;
+    text-decoration: none;
+}

@@ -1,0 +1,140 @@
+.back {
+  background-image: url(../img/photo-1461749280684-dccba630e2f6-4-1299x999.jpeg);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  z-index: 1;
+  height: 650px;
+}
+
+.back::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(2, 64, 146, 0.5), rgba(1, 30, 126, 0.8)),
+    transparent;
+  z-index: -1;
+}
+
+.foot-heading-1{
+  margin-top:20px; 
+}
+
+.tablet {
+  margin-top: 100px;
+}
+
+.tablet > img{
+  width: 100%;
+}
+
+.footer-section {
+  background-color: #042d89;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.list-section {
+  width: 80%;
+  margin-top: 80px;
+}
+
+.ul-1 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.ul-2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.ul-1 li {
+  list-style: none;
+  margin: 10px 0px;
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 10px;
+}
+
+.ul-2 li {
+  list-style: none;
+  margin: 10px 0px;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+.list {
+  width: 300px;
+}
+
+.list-pages li{
+  margin: 0px;
+}
+
+.list-pages li{
+  list-style: circle;
+  
+}
+
+.list-pages li a{
+  font-weight: normal;
+}
+
+.list-courses ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list-courses ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.list-courses ul li img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.list-courses ul li span {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .list-courses ul li {
+      margin-bottom: 10px;
+  }
+}
+
+.text-course{
+  transform: translateY(-10px);
+}
+
+.copyright, a{
+  width: 100%;
+  color: white;
+}
+
+.copyright{
+  background: #042d89;
+  padding-bottom: 20px;
+}
+

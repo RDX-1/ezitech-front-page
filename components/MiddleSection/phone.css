@@ -1,0 +1,35 @@
+.phone-app{
+    display: flex;
+  align-items: center;  
+  text-align: center;
+  justify-content: center;
+  padding: 50px 50px 0px 50px; /* top - right - bottom - left*/
+}
+
+.phone-pic{
+    width: 60%;
+    padding: 20px;
+}
+
+.phone-pic img{
+    height: 500px;
+}
+
+.apps img{
+    margin: 10px;
+    height: 50px;
+    width: auto;
+}
+
+.text{
+    padding: 20px;
+}
+
+.text p{
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.text span{
+    color: #2575ED;
+}

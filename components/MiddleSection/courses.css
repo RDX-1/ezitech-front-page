@@ -1,0 +1,110 @@
+/* courses.css */
+.course-cards .react-multi-carousel-item {
+  height: 385px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.courses{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.course-cards{
+    /* border: 1px solid black; */
+    width: 95%;
+    margin: auto;
+    cursor: pointer;
+}
+
+h1{
+    margin-bottom: 30px;
+    font-size: 3rem;
+}
+
+.skill-slider {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.item > img {
+  height: auto;
+}
+
+.item-content {
+  transition: 0.3s ease-in-out;
+}
+
+.item-content:hover {
+  transform: translateY(-50px);
+}
+
+.item > img:hover {
+  cursor: pointer;
+}
+
+.content {
+  height: 250px;
+  padding: 10px;
+}
+
+.price {
+  text-decoration: line-through;
+}
+
+.content h5 {
+  text-align: left;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.content h5 a {
+  color: rgb(80, 80, 80);
+  font-weight: normal;
+  letter-spacing: 0.8px;
+}
+
+.content h3 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.content h3 a {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+
+.time {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(231, 230, 230);
+}
+
+.rating-price {
+  margin-top: 10px;
+}
+
+.price {
+  color: rgb(80, 80, 80);
+  font-size: 0.8rem;
+}
+
+.main-price {
+  color: black;
+  font-size: 1.3rem;
+}
+
+button {
+  border-radius: 5px;
+  background-color: rgba(0, 88, 219, 0.918);
+  cursor: pointer;
+  padding: 10px;
+  color: white;
+  margin: 5px;
+  font-size: 1.2rem;
+}
